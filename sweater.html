@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sweaters — Reality Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <div class="header-menu">☰</div>
+      <a href="index.html" class="brand">
+        <div class="brand-name">REALITY CLUB</div>
+        <div class="brand-sub">OFFICIAL MERCH STORE</div>
+      </a>
+      <div class="header-actions">
+        <span class="currency">IDR ▾</span>
+        <span class="icon-search">⌕</span>
+        <span class="icon-heart">♡</span>
+        <span class="icon-user">♙</span>
+      </div>
+    </header>
+
+    <h1 class="page-title">Sweater</h1>
+
+    <div class="collection">
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <input class="sidebar-search" type="search" placeholder="Search">
+
+        <details class="filter-group" open>
+          <summary>Categories</summary>
+          <ul class="filter-list">
+            <li><a href="tees.html" class="check">Tees</a></li>
+            <li><a href="shirts.html" class="check">Shirts</a></li>
+            <li><a href="outerwear.html" class="check">Outerwear</a></li>
+            <li><a href="sweaters.html" class="check check-active">Sweaters</a></li>
+            <li><a href="pants.html" class="check">Pants</a></li>
+          </ul>
+        </details>
+
+        <details class="filter-group" open>
+          <summary>Product Type</summary>
+          <ul class="filter-list">
+            <li><label class="radio"><input type="radio" name="type" checked> All Products</label></li>
+            <li><label class="radio"><input type="radio" name="type"> Discount</label></li>
+          </ul>
+        </details>
+
+        <details class="filter-group" open>
+          <summary>Availability</summary>
+          <ul class="filter-list">
+            <li><label class="radio"><input type="radio" name="stock" checked> All</label></li>
+            <li><label class="radio"><input type="radio" name="stock"> In stock</label></li>
+          </ul>
+        </details>
+      </aside>
+
+      <!-- Produk -->
+      <div class="collection-main">
+        <div class="sort-bar">
+          <select class="sort" aria-label="Sort">
+            <option>sort : Recent</option>
+            <option>sort : Price, low to high</option>
+            <option>sort : Price, high to low</option>
+          </select>
+        </div>
+
+        <section class="collection-grid">
+
+          <a href="productK1.html" class="item">
+            <span class="badge">13%</span>
+            <img src="asset/knitwear grisella red.jpg" alt="Denim Pants Draelle T-Star">
+            <p class="item-name">Knitwear Grisella Red</p>
+            <p class="item-old">Rp 359.000</p>
+            <p class="item-now">Rp 309.000</p>
+          </a>
+
+          <a href="productK2.html" class="item">
+            <span class="badge">58%</span>
+            <img src="asset/knitwear i miss you.jpg" alt="Crewneck Eloise Olive Green">
+            <p class="item-name">Knitwear I Miss You</p>
+            <p class="item-old">Rp 359.000</p>
+            <p class="item-now">Rp 150.000</p>
+          </a>
+        </section>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <p class="footer-brand">REALITY CLUB © 2026</p>
+      <div class="footer-links">
+        <a href="#">INSTAGRAM</a>
+        <a href="#">CONTACT</a>
+        <a href="#">SHIPPING &amp; RETURNS</a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
